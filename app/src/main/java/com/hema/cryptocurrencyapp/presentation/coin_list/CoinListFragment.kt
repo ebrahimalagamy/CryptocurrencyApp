@@ -39,7 +39,7 @@ class CoinListFragment
                 if (state.error.isNotBlank()) tvError.text = state.error
                 tvError.isVisible = state.error.isNotBlank()
                 pbLoading.isVisible = state.isLoading
-                coinListAdapter.listOfCoins = state.coins
+                    coinListAdapter.listOfCoins = state.coins
                 Log.e("fdata", state.coins.toString())
             }
 
